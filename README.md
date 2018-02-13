@@ -1,11 +1,12 @@
 
-<img align="right" src="/assets/NAD_logo.jpg" width="150">
+<img align="right" src="/assets/NAD_logo.jpg" width="100">
 # php-NADC338
 
 ## php API for NAD C338 Amplifier automation
 
 Here is an API to use/integrate your NAD C338 Amplifier via php. With this API, you can power it on, set it to standby, get used source and change it, same for volume, Bass EQ, etc.
-I developed this API specifically to integrate my C338 into my Jeedom. It works perfectly with a Script for commands and one Virtuel. I also have a cron to get state regularly, all working nice in Jeedom iOS app and HomeKit.
+
+I developed this API specifically to integrate my C338 into my Jeedom. It works perfectly with a Script, both in iOS app and HomeKit. Of course you can use it with lot of automation solutions or alone with any Apache server.
 
 <img align="right" src="/assets/C338.jpg" width="150">
 
@@ -17,6 +18,8 @@ I developed this API specifically to integrate my C338 into my Jeedom. It works 
 - Download NAD-C338_API.php and put it on your server.
 - Include NAD-C338_API.php in your php script.
 - Start it with your C338 IP.
+
+> It is better to connect to your amplifier with a web browser first, to set it to static IP.
 
 #### Connection
 
