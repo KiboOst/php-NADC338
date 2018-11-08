@@ -101,6 +101,11 @@ echo 'getVersion: ', $getVersion, "<br>";
 
 ```
 
+Finnally, in Jeedom :
+<p align="center"><img src="/assets/JeedomNAD.jpg"></p>
+
+-----------------
+
 ## Version history
 
 #### v0.1 (2018-02-10)
