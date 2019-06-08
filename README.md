@@ -25,7 +25,7 @@ I developed this API specifically to integrate my C338 into my Jeedom. It works 
 #### Connection
 
 ```php
-require('NAD-C338_API.php"); //NAD custom API
+require('NAD-C338_API.php'); //NAD custom API
 $ip = '192.168.0.38';
 
 $_C338 = new NADC338($ip);
